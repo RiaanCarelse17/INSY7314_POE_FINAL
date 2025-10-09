@@ -1,0 +1,44 @@
+.home-container {
+  background: linear-gradient(to bottom right, #2ecc71, #1abc9c);
+  min-height: 100vh;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.nav-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links button {
+  margin-left: 10px;
+  background: white;
+  color: #1abc9c;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.account-summary {
+  text-align: left;
+}
+
+.account-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.account-card h3 {
+  margin-bottom: 10px;
+}

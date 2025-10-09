@@ -1,0 +1,50 @@
+/* client/src/components/LandingScreen.css */
+.landing-container {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #00695c, #26a69a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.landing-content {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.register-btn {
+  background-color: #424242;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: white;
+  color: #424242;
+  padding: 10px 20px;
+  border: 2px solid #424242;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.warning-text {
+  color: red;
+  margin-top: 10px;
+}
+
+.contact-link {
+  margin-top: 30px;
+  font-size: 14px;
+}
