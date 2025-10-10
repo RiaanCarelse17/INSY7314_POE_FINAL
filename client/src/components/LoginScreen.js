@@ -6,11 +6,7 @@ const LoginScreen = ({
   onRegisterClick,
   onForgotPassword,
   onForgotUsername,
-<<<<<<< HEAD
   onLoginSuccess
-=======
-  onLoginSuccess // ← New prop for handling successful login
->>>>>>> origin/Jared
 }) => {
   const [formData, setFormData] = useState({
     username: '',
@@ -95,18 +91,7 @@ const response = await axios.post('https://localhost/login', {
             value={formData.password}
             onChange={handleChange}
           />
-<<<<<<< HEAD
           {errors.password && <p className="error-text">{errors.password}</p>}
-=======
-
-          <input
-            type="text"
-            placeholder="Account Number"
-            name="accountNumber"
-            required
-          />
-
->>>>>>> origin/Jared
 
           <div className="button-group">
             <button type="submit" className="signin-btn">Sign In</button>
