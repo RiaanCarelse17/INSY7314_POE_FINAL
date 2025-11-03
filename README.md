@@ -98,6 +98,6 @@ Optional CircleCI config included in .circleci/config.yml
 
 
 
-Demo video included for academic review
+Demo video included 
 
-Let me know if you want to add a badge, contributor section, or deployment instructions. You’re presenting this like a deployment-ready full-stack lead!
+
