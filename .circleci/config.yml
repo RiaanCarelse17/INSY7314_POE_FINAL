@@ -1,0 +1,17 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: cimg/node:18.17.0
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm run lint
+      - run: npm test
+      - run: npm audit --audit-level=moderate
+
+workflows:
+  build-and-test:
+    jobs:
+      - build
