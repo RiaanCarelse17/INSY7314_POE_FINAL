@@ -84,6 +84,8 @@
 .home-button {
   background: rgba(255, 255, 255, 0.95);
   color: #2d3436;
+  position: relative;
+  top:-10px;
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
