@@ -6,9 +6,10 @@ jobs:
       - image: cimg/node:18.17   # CircleCI Node.js image
     steps:
       - checkout                 # Pull your repo code
+
       - run:
           name: Install dependencies
-          command: npm install
+          command: cd server && npm install
       - run:
           name: Install sonar-scanner
           command: npm install -g sonar-scanner
