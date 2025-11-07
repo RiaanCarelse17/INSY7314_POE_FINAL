@@ -9,7 +9,7 @@
 Youtube link: https://youtu.be/ZJo-6fOrDfs
 
 *** Please note AI was used in the duration of this project for error handling and help with Layout***
-# https://claude.ai/share/8f81e3fb-aba5-461a-be25-a005ad2cf482 
+https://claude.ai/share/8f81e3fb-aba5-461a-be25-a005ad2cf482 
 
 Note: In the demo video, funds were mistakenly transferred to the same account for demonstration purposes.  
 The application fully supports sending money to any other valid account that exists in the database. Even though our source code in our .zip folder says "PoePart2" our part 3 work is in there. Thanks for understanding!
